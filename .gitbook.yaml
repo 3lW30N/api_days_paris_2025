@@ -1,8 +1,0 @@
-root: ./docs
-
-structure:
-  readme: getting-started/introduction.md
-  summary: SUMMARY.md
-
-api:
-  openapi: ../api-specs/evolve-enhanced.yaml
