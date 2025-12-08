@@ -111,6 +111,10 @@ paths:
                   description: Three-letter ISO currency code
                   example: usd
                   enum: [usd, eur, gbp]
+                  x-enum-descriptions:
+                    usd: US Dollar
+                    eur: Euro
+                    gbp: British Pound
                 customer_id:
                   type: string
                   description: ID of an existing customer
@@ -226,6 +230,7 @@ paths:
       summary: Refund a payment
       description: Refunds a previously successful payment. You can refund the full amount or a partial amount.
       operationId: refundPayment
+      x-stability: experimental
       parameters:
         - name: id
           in: path
@@ -351,6 +356,7 @@ paths:
       summary: Retrieve a customer
       description: Retrieves the details of an existing customer.
       operationId: getCustomer
+      x-hideTryItPanel: true
       parameters:
         - name: id
           in: path
