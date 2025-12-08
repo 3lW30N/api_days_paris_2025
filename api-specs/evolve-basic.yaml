@@ -77,10 +77,12 @@ security:
 tags:
   - name: Payments
     description: Create and manage payment transactions
-    # x-page-title: Payments API V3
+    x-page-title: Payments API V3
+    x-page-icon: money-bill-wheat
   - name: Customers
     description: Create and manage customer records
     x-page-title: Customers API V4
+    x-page=icon: user-group
 
 paths:
   /payments:
