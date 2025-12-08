@@ -2,6 +2,7 @@ openapi: 3.0.3
 info:
   title: Evolve Payments API
   description: |
+    # Evolve Payments API Documentation
     Modern payment processing API for SaaS companies. Accept payments, manage customers, and handle refunds with ease.
     
     {% hint style="info" %}
