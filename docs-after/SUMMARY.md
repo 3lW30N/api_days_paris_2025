@@ -26,5 +26,5 @@
     spec:
       ref:
         kind: openapi
-        spec: evolve-basic
+        spec: after-openapi
   ```
