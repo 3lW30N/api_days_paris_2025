@@ -16,7 +16,7 @@ metaLinks:
 **Test Mode Setup:**
 
 {% hint style="warning" %}
-Make sure to swap in your real API key below
+Make sure to swap in your real API key below.
 {% endhint %}
 
 ```
